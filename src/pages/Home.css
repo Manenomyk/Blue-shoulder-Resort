@@ -12,6 +12,9 @@
     margin-right: 1%;
     height: 80vh;
 }
+span{
+    color: yellow;
+}
 
 #section3{
     background-color: gry;
@@ -27,12 +30,15 @@
     background-color: #2d2e30;
     color: white;
 }
+.secton3{
+    /* height: 45vh; */
+    background-color: #2d2e30;
+    color: white;
+}
 
 .head{
     margin-top:50px;
     color:w ;
-
-
 }
 
 .underline{
@@ -44,12 +50,17 @@
 
 .para{
     margin-bottom: 4rem;
+    font-size: 21px;
 }
 
 .mainsec{
     height: 70vh;
 }
 
+.mainsec1{
+    height: 60vh;
+    
+}
 .underline1{
     width: 8rem;
     height: 4px;
@@ -73,19 +84,21 @@
 
 
 .Section4{
-    height: 82vh;
-    margin-top: -7vh;
-}
-.Section6{
-    height: 50vh;
+    /* height: 82vh; */
     /* margin-top: -7vh; */
+    /* background-color: rgb(224, 224, 224); */
+    background-color: #2d2e30;
+    padding-top: 2rem;
+    color: white;
+    padding-bottom: 3rem;
 }
 
 #btn{
     position: relative;
     top: 50%;
     left: 46%;
-    margin-top: 4rem;
+    margin-top: 1rem;
+    font-size: 22px;
 }
 .section5{
     height: 30vh;
@@ -121,6 +134,13 @@
     margin-bottom: 3rem;
     font-size: 24px;
 }
+#accom1{
+    margin-bottom: 3rem;
+    font-size: 24px;
+    background-color: rgb(102, 58, 58);
+    padding: 2rem;
+    border-radius: 20px;
+}
 
 #topics{
     color: rgb(207, 34, 34);
@@ -129,4 +149,26 @@
 #cap{
     margin-top: -23%;
    /* backface-visibility: hidden; */
+}
+
+#icon{
+    font-size: 10rem;
+   margin-top:1rem ;
+    color: rgb(222, 107, 107);
+}
+
+#hpad{
+    margin-top: 2rem;
+    font-size: 30px;
+}
+.mx{
+    font-size: 20px;
+}
+#uto{
+    font-size: 32px;/* font-weight: ; */
+}
+
+#txt{
+    color: black;
+    font-size: 20px;
 }
