@@ -137,7 +137,29 @@ span{
 #accom1{
     margin-bottom: 3rem;
     font-size: 24px;
-    background-color: rgb(102, 58, 58);
+    background-color: rgb(57, 49, 58, .6);
+    padding: 2rem;
+    border-radius: 20px;
+}
+#accom2{
+    margin-bottom: 3rem;
+    font-size: 24px;
+    background-color: rgba(63, 63, 48, 0.6);
+    padding: 2rem;
+    border-radius: 20px;
+}
+#accom3{
+    margin-bottom: 3rem;
+    font-size: 24px;
+    background-color: rgba(46, 51, 58, 0.6);
+    padding: 2rem;
+    border-radius: 20px;
+    color: white;
+}
+#accom4{
+    margin-bottom: 3rem;
+    font-size: 24px;
+    background-color: rgb(102, 58, 58, .5);
     padding: 2rem;
     border-radius: 20px;
 }
@@ -152,9 +174,19 @@ span{
 }
 
 #icon{
-    font-size: 10rem;
+    font-size: 8rem;
    margin-top:1rem ;
-    color: rgb(222, 107, 107);
+    color: rgb(118, 84, 84);
+}
+#icon1{
+    font-size: 8rem;
+   margin-top:1rem ;
+    color: rgb(122, 222, 107);
+}
+#icon2{
+    font-size: 8rem;
+   margin-top:1rem ;
+    color: rgb(91, 129, 132);
 }
 
 #hpad{

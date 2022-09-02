@@ -8,7 +8,7 @@ import img0 from '../images/img0.png';
 import pic from '../images/pic.jpeg';
 import i7 from '../images/i7.jpeg';
 import i8 from '../images/i8.jpeg';
-import ij1 from '../images/ij1.jpeg';
+import ij12 from '../images/ij12.jpg';
 
 
 
@@ -31,9 +31,9 @@ function Home() {
           <comp.Navbar.Brand href="#home" style={{fontSize:"2rem"}}>Blue<span>Shoulder</span> </comp.Navbar.Brand>
           <comp.Nav className="justify-content-end">
             <comp.Nav.Link href="#home" style={{fontSize:"24px"}}>Home</comp.Nav.Link>
-            <comp.Nav.Link href="#features" style={{fontSize:"24px"}}>Servises</comp.Nav.Link>
-            <comp.Nav.Link href="#pricing" style={{fontSize:"24px"}}>About</comp.Nav.Link>
-            <comp.Nav.Link href="#pricing" style={{fontSize:"24px"}}>Contact</comp.Nav.Link>
+            <comp.Nav.Link href="#Servises" style={{fontSize:"24px"}}>Servises</comp.Nav.Link>
+            <comp.Nav.Link href="#About" style={{fontSize:"24px"}}>About</comp.Nav.Link>
+            <comp.Nav.Link href="#Contact" style={{fontSize:"24px"}}>Contact</comp.Nav.Link>
           </comp.Nav>
         </comp.Container>
       </comp.Navbar>
@@ -81,7 +81,7 @@ function Home() {
 
                                     <comp.Container>
                                         <comp.Row>
-                                            <comp.Col lg={6} className="mx-auto" id="accom1">
+                                            <comp.Col lg={6} className="mx-auto" id="accom2">
                                                  Recreational activities such as games require a good and large
                                                  emough space to perfom. At our Resort, we offer enough field space for 
                                                  gaming, running and several recreational activities both for kids and the 
@@ -108,7 +108,7 @@ function Home() {
 
                                     <comp.Container>
                                         <comp.Row>
-                                            <comp.Col lg={6} className="mx-auto" id="accom1">
+                                            <comp.Col lg={6} className="mx-auto" id="accom3">
                                                 Good packing and enough guaranteed security is our top most priority
                                                 as a facility. We offer enough packing space for the guests vehicles
                                                 with adequate security for their safety. #YourSafetyOurPriority.
@@ -133,7 +133,7 @@ function Home() {
                     <div className="underline8 mx-auto"></div>
                     <comp.Container>
                                         <comp.Row>
-                                            <comp.Col lg={6} className="mx-auto" id="accom1">
+                                            <comp.Col lg={6} className="mx-auto" id="accom4">
                                                 Come get the chance to adventure in the scenic Kakamega Forest
                                                 and experience the beauty of nature. The forest is also known for its wild snakes, monkeys
                                                 and baboons together with the inflow of river Yala in its Center.
@@ -174,7 +174,7 @@ function Home() {
                                         <div className="underline7 mx-auto"></div>
                                         
                                    </comp.Card.Title>
-                                   <GiForestCamp className="mx-auto" id="icon" />
+                                   <GiForestCamp className="mx-auto" id="icon1" />
                                         <comp.Card.Body className="mx">
                                             The Cortage is in close proximity to the very vast Kakamega forest. Still we offer
                                             adventure guides to and throught the forest to guests for hiking and recreation. view 
@@ -191,7 +191,7 @@ function Home() {
                                         <div className="underline7 mx-auto"></div>
                                         
                                    </comp.Card.Title>
-                                   <GiMeal className="mx-auto" id="icon" />
+                                   <GiMeal className="mx-auto" id="icon2" />
                                         <comp.Card.Body className="mx">
                                             We are endowed with highly skilled cheffs who prepare the best
                                             of both international and local delicacies for the guests. Our meals range from breakfast, lunch, dinner and to supper. We offer the best catering Services.
@@ -296,7 +296,7 @@ function Home() {
                    <comp.Col lg={6}>
                    <comp.Row>
                    <comp.Col lg={10} className="mx-auto">
-                   <comp.Image src={ij1} alt='single room'
+                   <comp.Image src={ij12} alt='single room'
                                     className="card-img-top, mb-3"
                                     style={{height:"32vh"}}
                                     fluid
@@ -310,7 +310,7 @@ function Home() {
                                         About Us
                                         <div className="underline7" style={{marginLeft:"2rem"}}></div>
                              </comp.Card.Title>
-                             It is an accommodation facility that is adjacent to Kakamega Tropical rainforests
+                             We are an accommodation facility that is adjacent to Kakamega Tropical rainforests
                               which is a living remnant (Guinea Congolian type) from long pleistocene period
                                when great climatical changes took place all over in the whole world.
                                 The forest is a natural encyclopedia of flora and fauna of which birds and animals
@@ -320,8 +320,10 @@ function Home() {
                     </comp.Col>
                    </comp.Row>
 
-                   <comp.Row className="mb-5, mt-3">
+                   <comp.Row className="mb-5">
+                   <hr className="mb-5" />
                 <comp.Col md={4} className="mx-auto">
+                    
                     <h3>History</h3>
                     <div className="underline7" style={{marginLeft:"15px", width:"4rem", marginBottom:"2rem"}}></div>
                     <p style={{fontSize:"20px"}}>We began as a small facility that hosted only local visitors in early 2000s. 
@@ -435,34 +437,7 @@ function Home() {
                                                     <FaQuoteRight style={{color:"rgb(202, 53, 48)",marginLeft:"10px"}} />
                                                 </comp.Col>
 
-                                                <comp.Col lg={3} className="mx-auto" id="accom">
-                                                <comp.Image
-                                                    className="d-block  mx-auto"
-                                                    src={pic}
-                                                    style={{ height:"14vh",width:"8vw", borderRadius:"50%"}}
-                                                    alt="Second slide"
-                                                    fluid
-                                                    />
-
-                                                <FaQuoteLeft style={{color:"rgb(202, 53, 48)",marginRight:"10px"}}/>
-                                                    when an unknown printer took a galley of type and scrambled it to make a type 
-                                                    specimen book. 
-                                                    <FaQuoteRight style={{color:"rgb(202, 53, 48)",marginLeft:"10px"}} />
-                                                </comp.Col>
-
-                                                <comp.Col lg={3} className="mx-auto" id="accom">
-                                                <comp.Image
-                                                    className="d-block  mx-auto"
-                                                    src={pic}
-                                                    style={{ height:"14vh",width:"8vw", borderRadius:"50%"}}
-                                                    alt="Second slide"
-                                                    fluid
-                                                    />
-                                                <FaQuoteLeft style={{color:"rgb(202, 53, 48)",marginRight:"10px"}}/>
-                                                    when an unknown printer took a galley of type and scrambled it to make a type 
-                                                    specimen book. 
-                                                    <FaQuoteRight style={{color:"rgb(202, 53, 48)",marginLeft:"10px"}} />
-                                                </comp.Col>
+                                                
                                 </comp.Row>
                             </comp.Carousel.Item>
                             <comp.Carousel.Item>
@@ -482,33 +457,7 @@ function Home() {
                                                     <FaQuoteRight style={{color:"rgb(202, 53, 48)",marginLeft:"10px"}} />
                                                 </comp.Col>
 
-                                                <comp.Col lg={3} className="mx-auto" id="accom">
-                                                <comp.Image
-                                                    className="d-block  mx-auto"
-                                                    src={pic}
-                                                    style={{ height:"14vh",width:"8vw", borderRadius:"50%"}}
-                                                    alt="Second slide"
-                                                    fluid
-                                                    />
-                                                <FaQuoteLeft style={{color:"rgb(202, 53, 48)",marginRight:"10px"}}/>
-                                                    when an unknown printer took a galley of type and scrambled it to make a type 
-                                                    specimen book. 
-                                                    <FaQuoteRight style={{color:"rgb(202, 53, 48)",marginLeft:"10px"}} />
-                                                </comp.Col>
-
-                                                <comp.Col lg={3} className="mx-auto" id="accom">
-                                                <comp.Image
-                                                    className="d-block  mx-auto"
-                                                    src={pic}
-                                                    style={{ height:"14vh",width:"8vw", borderRadius:"50%"}}
-                                                    alt="Second slide"
-                                                    fluid
-                                                    />
-                                                <FaQuoteLeft style={{color:"rgb(202, 53, 48)",marginRight:"10px"}}/>
-                                                    when an unknown printer took a galley of type and scrambled it to make a type 
-                                                    specimen book. 
-                                                    <FaQuoteRight style={{color:"rgb(202, 53, 48)",marginLeft:"10px"}} />
-                                                </comp.Col>
+                                               
                                 </comp.Row>
                             </comp.Carousel.Item>
                             <comp.Carousel.Item>
@@ -527,33 +476,7 @@ function Home() {
                                                     <FaQuoteRight style={{color:"rgb(202, 53, 48)",marginLeft:"10px"}} />
                                                 </comp.Col>
 
-                                                <comp.Col lg={3} className="mx-auto" id="accom">
-                                                <comp.Image
-                                                    className="d-block  mx-auto"
-                                                    src={pic}
-                                                    style={{ height:"14vh",width:"8vw", borderRadius:"50%"}}
-                                                    alt="Second slide"
-                                                    fluid
-                                                    />
-                                                <FaQuoteLeft style={{color:"rgb(202, 53, 48)",marginRight:"10px"}}/>
-                                                    when an unknown printer took a galley of type and scrambled it to make a type 
-                                                    specimen book. 
-                                                    <FaQuoteRight style={{color:"rgb(202, 53, 48)",marginLeft:"10px"}} />
-                                                </comp.Col>
-
-                                                <comp.Col lg={3} className="mx-auto" id="accom">
-                                                <comp.Image
-                                                    className="d-block  mx-auto"
-                                                    src={pic}
-                                                    style={{ height:"14vh",width:"8vw", borderRadius:"50%"}}
-                                                    alt="Second slide"
-                                                    fluid
-                                                    />
-                                                <FaQuoteLeft style={{color:"rgb(202, 53, 48)",marginRight:"10px"}}/>
-                                                    when an unknown printer took a galley of type and scrambled it to make a type 
-                                                    specimen book. 
-                                                    <FaQuoteRight style={{color:"rgb(202, 53, 48)",marginLeft:"10px"}} />
-                                                </comp.Col>
+                                             
                                 </comp.Row>
                             </comp.Carousel.Item>
                        </comp.Carousel>
@@ -569,8 +492,8 @@ function Home() {
                 <div className="secton3">
                    
                     <comp.Container>
-                            <comp.Row>
-                                <comp.Col className="md-12 ">
+                            <comp.Row >
+                                <comp.Col className="md-12, mb-5 ">
                                    <h3 className=" text-center head">Contact Us</h3>
                                    <div className="underline3 mx-auto"></div>
                                    <comp.Container>
@@ -580,6 +503,7 @@ function Home() {
                                                 <div className="mb-4">
                                                    <ImLocation2 /> ADDRESS
                                                 </div>
+                                                
                                                 <div className="mb-4">
                                                 <IoCall /> PHONE
                                                 </div>
@@ -591,8 +515,8 @@ function Home() {
                                             <comp.Col lg={6} className="justify-content-end">
                                             <comp.Form>
                                                 <comp.Form.Group className="mb-3" controlId="formBasicEmail">
-                                                    <comp.Form.Label>Name</comp.Form.Label>
-                                                    <comp.Form.Control type="text" placeholder="Enter your name" />
+                                                    <comp.Form.Label>Share a message</comp.Form.Label>
+                                                    <comp.Form.Control type="textarea" placeholder="Enter your name" />
                                         
                                                 </comp.Form.Group>
                                             </comp.Form>
