@@ -313,6 +313,7 @@ function Home() {
                                     />
                                    <comp.Card.Title className="mx-auto" id="topics">
                                         Family Room
+                                        
                                         <div className="underline4 mx-auto"></div>
                                    </comp.Card.Title>
                                    
@@ -365,12 +366,12 @@ function Home() {
                              </comp.Card.Title>
                              </rev.Fade>
                              <rev.Zoom right delay={500}>
-                             We are an accommodation facility that is adjacent to Kakamega Tropical rainforests
+                            <p className="p"> We are an accommodation facility that is adjacent to Kakamega Tropical rainforests
                               which is a living remnant (Guinea Congolian type) from long pleistocene period
                                when great climatical changes took place all over in the whole world.
                                 The forest is a natural encyclopedia of flora and fauna of which birds and animals
                                  can even be seen on the edge when seated in the compound of isecheno shouldered
-                                  guest house .
+                                  guest house .</p>
                             </rev.Zoom>
                     </comp.Col>
                    </comp.Row>
