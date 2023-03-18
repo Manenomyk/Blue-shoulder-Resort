@@ -23,12 +23,23 @@ import { IoCall } from "react-icons/io5";
 import { GiHouse } from "react-icons/gi";
 import { GiForestCamp } from "react-icons/gi";
 import { GiMeal } from "react-icons/gi";
+import { Helmet } from "react-helmet";
 
 
 
 function Home() {
     return ( 
         <div>
+
+
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Blue-Shoulder resort</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Awesome resort you need to checkout" />
+            </Helmet>
+
+
         <comp.Navbar bg="dark" variant="dark" sticky="top">
         <comp.Container>
           <comp.Navbar.Brand href="#home" style={{fontSize:"2rem"}}>Blue<span>Shoulder</span> </comp.Navbar.Brand>
